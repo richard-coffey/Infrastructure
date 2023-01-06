@@ -14,7 +14,7 @@ jobs:
   steps:
   - task: AzureResourceManagerTemplateDeployment@3
     inputs:
-      connectedServiceName: Pay-As-You-Go (51481efe-772a-49e5-a013-9e3001e18be8)
+      connectedServiceName: $(ServiceConnectionName)
       location: $(DeploymentDefaultLocation)
       resourceGroupName: $(ResourceGroupName)
       csmFile: main.bicep
