@@ -1,6 +1,6 @@
 # Replace {subscriptionId} and {resourceGroupName} with your own values
-subscriptionId: {subscriptionId}
-resourceGroupName: {resourceGroupName}
+subscriptionId: $(subscriptionId)
+resourceGroupName: $(resourceGroup)
 
 # Set the environment for the deployment
 # Possible values are: "production", "staging", and "development"
