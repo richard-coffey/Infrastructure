@@ -1,4 +1,4 @@
-param sites_azure_serverless_cv_name string = 'azure-serverless-cv-1'
+param sites_azure_serverless_cv_name string = 'azure-serverless-cv'
 param sites_azure_serverless_cv_location string = 'North Europe'
 param serverfarms_ASP_azureserverlesscv_8ee5_externalid string = '/subscriptions/51481efe-772a-49e5-a013-9e3001e18be8/resourceGroups/azure-serverless-cv/providers/Microsoft.Web/serverfarms/ASP-azureserverlesscv-8ee5'
 
