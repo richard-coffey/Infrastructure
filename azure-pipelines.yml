@@ -15,5 +15,3 @@ jobs:
       location: West Europe
       resourceGroupName: Test
       csmFile: main.bicep
-      overrideParameters: >
-        -environmentType development
