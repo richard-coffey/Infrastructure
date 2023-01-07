@@ -1,31 +1,4 @@
 name: Deploy Infrastructure
-
-parameters:
-- name: resourceGroup
-  displayName: ETL Resource Group
-  type: string
-  default: ETLTest
-- name: region
-  displayName: ETL Region
-  type: string
-  default: East US 2
-  values:
-  - East US
-  - East US 2
-  - West US
-  - West US 2
-- name: cosmosAccountName
-  displayName: Cosmos Account Name
-  type: string
-  default: AzurePetStore
-- name: cosmosDatabaseName
-  displayName: Cosmos Database Name
-  type: string
-  default: E-Commerce
-- name: cosmosContainerName
-  displayName: Cosmos Container Name
-  type: string
-  default: Orders
   
 trigger: none
 
