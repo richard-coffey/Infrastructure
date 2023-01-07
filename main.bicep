@@ -6,3 +6,7 @@ module StaticWebApp 'modules/static-web-app.bicep' = {
     location: location
   }
 }
+
+module AzureFunctions 'modules/azure-functions.bicep' = {
+  name: 'azure-functions'
+}
