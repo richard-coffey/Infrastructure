@@ -1,7 +1,7 @@
 param location string = resourceGroup().location
 
 module StaticWebApp 'modules/static-web-app.bicep' = {
-  name: 'Static Web App'
+  name: 'static-web-app'
   params: {
     location: location
   }
